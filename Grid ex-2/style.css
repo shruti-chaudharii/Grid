@@ -1,0 +1,66 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.boxSet1,
+.boxSet2,
+.boxSet3 {
+    display: grid;
+    gap: 10px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 15px;
+    height: 220px;
+    color: white;
+    font-size: 20px;
+}
+
+.boxSet1 {
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.boxSet2 {
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.boxSet3 {
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.box1 {
+    background-color: rgb(253, 91, 105);
+}
+
+.box2 {
+    background-color: rgb(68, 169, 68);
+}
+
+.box3 {
+    background-color: violet;
+}
+
+.box4 {
+    background-color: rgb(2, 72, 100);
+}
+
+.box5 {
+    background-color: rgb(213, 238, 144);
+}
+
+.box6 {
+    background-color: rgb(161, 182, 244);
+}
+
+.box7 {
+    background-color: rgb(159, 15, 121);
+}
+
+.box8 {
+    background-color: rgb(194, 164, 42);
+}
+
+.box9 {
+    background-color: rgb(172, 241, 168);
+}
